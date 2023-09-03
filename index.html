@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head title="Cheatsheet">
+        <title>Tables Cheatsheet</title>
+        <link href=".\Resources\CSS\styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML Cheatsheet</h1>
+        </header>
+        <div>
+            <h2>Tables</h2>
+            <table>     <!--HEAD-->
+                <tr class="thead">
+                    <th scope="row"><h3>Keyword</h3></th>
+                    <th scope="row"><h3>Meaning</h3></th>
+                    <th scope="row"><h3>Code</h3></th>
+                </tr>
+
+                <tr>     <!--Table Rows-->
+                    <td><li>Table Rows</li></td>
+                    <td>
+                        <p>The first step in entering data into the table is to add rows using the table row element:</p>
+                    </td>
+                    <td><p>
+                        table<br>
+                        tr<br>
+                        /tr<br>
+                        tr<br>
+                        /tr<br>
+                       /table
+                       </p>
+                    </td>
+                </tr>
+
+                <tr>     <!--Table Data-->
+                    <td><li>Table Data</li></td>
+                    <td>
+                        <p>Rows arent sufficient to add data to a table. Each cell element must also be defined. 
+                            In HTML, you can add data using the table data element:</p>
+                    </td>
+                    <td>
+                        table<br>
+                            tr<br>
+                            td 73 /td<br>
+                            td 81 /td<br>
+                            /tr<br>
+                        /table
+                    </td>
+                </tr>
+
+                <tr>     <!--Table Headings-->
+                    <td><li>Table Headings</li></td>
+                    <td>
+                        <p>The table heading element is used just like a table data element, except 
+                            with a relevant title. Just like table data, a table heading must be placed 
+                            within a table row.</p>
+                    </td>
+                    <td>
+                        table<br>
+                            tr<br>
+                            th scope="col" Saturday /th<br>
+                            th scope="col" Sunday /th<br>
+                            /tr<br>
+                            tr<br>
+                            th scope="row" Temperature /th<br>
+                            td 73 /td<br>
+                            td 81 /td<br>
+                            /tr<br>
+                        /table
+                    </td>
+                </tr>
+            </table>
+            <footer>
+                <h4><em>by Marcel Coetzee</em></h4>
+            </footer>
+        </div>
+    </body>
+</html>
