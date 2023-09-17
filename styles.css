@@ -87,6 +87,7 @@ a:hover{
     border: solid red 1px;
     border-radius: 5px;
     padding: 5px;
+    color: white;
 }
 
 a:active{
@@ -94,6 +95,6 @@ a:active{
 }
 
 a:visited{
-    color: aqua;
+    color: purple;
 }
 
