@@ -82,3 +82,18 @@ li{
     font-weight: bold;
 }
 
+a:hover{
+    font-size: 20px;
+    border: solid red 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+a:visited{
+    color: aqua;
+}
+
